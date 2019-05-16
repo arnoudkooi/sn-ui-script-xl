@@ -7,7 +7,7 @@
         <hint/>
         <name/>
         <order/>
-        <roles>x_snc_ui_script_xl.ui_script_xl_user</roles>
+        <roles>admin</roles>
         <sys_class_name>sys_app_application</sys_class_name>
         <sys_created_by>Arnoud.Kooi</sys_created_by>
         <sys_created_on>2019-05-16 12:44:38</sys_created_on>
@@ -15,7 +15,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1913f9c84fe9b38035e0fdb28110c774</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>UI Script XL</sys_name>
         <sys_overrides/>
         <sys_package display_value="UI Script XL" source="x_snc_ui_script_xl">a51de5444fe9b38035e0fdb28110c7bf</sys_package>
@@ -24,7 +24,7 @@
         <sys_scope display_value="UI Script XL">a51de5444fe9b38035e0fdb28110c7bf</sys_scope>
         <sys_update_name>sys_app_application_1913f9c84fe9b38035e0fdb28110c774</sys_update_name>
         <sys_updated_by>Arnoud.Kooi</sys_updated_by>
-        <sys_updated_on>2019-05-16 12:51:13</sys_updated_on>
+        <sys_updated_on>2019-05-16 13:05:00</sys_updated_on>
         <title>UI Script XL</title>
         <view_name/>
     </sys_app_application>

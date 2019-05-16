@@ -5,8 +5,8 @@
         <sys_created_on>2019-05-16 12:18:51</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>b04d2d444fe9b38035e0fdb28110c777</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_snc_ui_script_xl_ui_script_xl.x_snc_ui_script_xl.ui_script_xl_user</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_snc_ui_script_xl_ui_script_xl.admin</sys_name>
         <sys_package display_value="UI Script XL" source="x_snc_ui_script_xl">a51de5444fe9b38035e0fdb28110c7bf</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
@@ -14,8 +14,8 @@
         <sys_security_acl display_value="x_snc_ui_script_xl_ui_script_xl">7c4d2d444fe9b38035e0fdb28110c772</sys_security_acl>
         <sys_update_name>sys_security_acl_role_b04d2d444fe9b38035e0fdb28110c777</sys_update_name>
         <sys_updated_by>Arnoud.Kooi</sys_updated_by>
-        <sys_updated_on>2019-05-16 12:18:51</sys_updated_on>
-        <sys_user_role display_value="x_snc_ui_script_xl.ui_script_xl_user" name="x_snc_ui_script_xl.ui_script_xl_user">a44d29444fe9b38035e0fdb28110c7e6</sys_user_role>
+        <sys_updated_on>2019-05-16 13:04:10</sys_updated_on>
+        <sys_user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</sys_user_role>
         <transaction_id/>
     </sys_security_acl_role>
 </record_update>
