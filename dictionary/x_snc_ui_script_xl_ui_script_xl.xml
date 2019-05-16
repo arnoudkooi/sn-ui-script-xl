@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="UI Script XL" max_length="40" name="x_snc_ui_script_xl_ui_script_xl" type="collection">
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="Script" max_length="2000000" name="script" type="string"/>
+    </element>
+</database>
