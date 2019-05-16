@@ -28,6 +28,20 @@
             <sys_user/>
             <type/>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>content</element>
+            <position>2</position>
+            <sys_created_by>Arnoud.Kooi</sys_created_by>
+            <sys_created_on>2019-05-16 13:10:15</sys_created_on>
+            <sys_id>3509f5804f2db38035e0fdb28110c712</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_ui_script_xl_ui_script_xl" sys_domain="global" view="Default view">788da1844fe9b38035e0fdb28110c75f</sys_ui_section>
+            <sys_updated_by>Arnoud.Kooi</sys_updated_by>
+            <sys_updated_on>2019-05-16 13:10:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>

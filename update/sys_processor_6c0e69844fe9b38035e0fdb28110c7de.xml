@@ -3,13 +3,13 @@
         <active>true</active>
         <class_name/>
         <description>Serves large JS libraries to client&#13;
-Usage:  /x_snc_ui_script_xl_ui_script_xl.do?script=jquery</description>
+Usage:  /x_snc_ui_script_xl_ui_script_xl_serve.do?script=demo</description>
         <interactive>false</interactive>
-        <name>UI Script XL</name>
+        <name>UI Script XL Serve</name>
         <parameters/>
         <params_endpoint/>
-        <path>ui_script_xl</path>
-        <path_endpoint>x_snc_ui_script_xl_ui_script_xl</path_endpoint>
+        <path>ui_script_xl_serve</path>
+        <path_endpoint>x_snc_ui_script_xl_ui_script_xl_serve</path_endpoint>
         <require_csrf>false</require_csrf>
         <roles>snc_internal</roles>
         <script><![CDATA[(function process(g_request, g_response, g_processor) {
@@ -18,7 +18,7 @@ Usage:  /x_snc_ui_script_xl_ui_script_xl.do?script=jquery</description>
 	var scriptName = g_request.getParameter('script');
 	var grUiXl = new GlideRecord('x_snc_ui_script_xl_ui_script_xl');
 	if (grUiXl.get('name',scriptName)) {
-		output = grUiXl.getValue('script');
+		output = grUiXl.getValue('content');
 	}
 	
 	g_response.setContentType("text/javascript");
@@ -30,15 +30,15 @@ Usage:  /x_snc_ui_script_xl_ui_script_xl.do?script=jquery</description>
         <sys_created_on>2019-05-16 12:23:14</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>6c0e69844fe9b38035e0fdb28110c7de</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>UI Script XL</sys_name>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>UI Script XL Serve</sys_name>
         <sys_package display_value="UI Script XL" source="x_snc_ui_script_xl">a51de5444fe9b38035e0fdb28110c7bf</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="UI Script XL">a51de5444fe9b38035e0fdb28110c7bf</sys_scope>
         <sys_update_name>sys_processor_6c0e69844fe9b38035e0fdb28110c7de</sys_update_name>
         <sys_updated_by>Arnoud.Kooi</sys_updated_by>
-        <sys_updated_on>2019-05-16 12:48:29</sys_updated_on>
+        <sys_updated_on>2019-05-16 13:13:42</sys_updated_on>
         <type>script</type>
     </sys_processor>
 </record_update>
